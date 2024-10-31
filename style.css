@@ -13,6 +13,7 @@ body {
     background-image:linear-gradient(to top right, var(--renk1), black);
     height: 100vh !important;
     width: 100%;
+    overflow-x: hidden;
 }
 
 :root {
@@ -44,4 +45,20 @@ button {
 
 button:active {
     transform: scale(0.9);
+}
+
+th {
+    color: white !important;
+    width:60px !important;
+    border: 1px solid white;
+}
+
+td {
+    border: 1px solid white;
+    color: white;
+    width: 60px !important;
+}
+
+td.tablobutonlari {
+    width: auto !important;
 }
